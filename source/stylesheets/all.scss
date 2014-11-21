@@ -11,28 +11,25 @@ body {
 }
 
 #hello {
-  background-image: url("../images/background_lo.jpg");
-  color: white;
+  background-image: url("../images/background.jpg");
 }
 
 #bio {
-  background-image: url("../images/chicago_lo.jpg");
-  color: black;
+  background-image: url("../images/chicago.jpg");
 }
 
 #depaul {
   background-image: url("../images/coffee_lo.jpg");
-  color: white;
-
-  .blurb {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 25px;
-  }
 }
 
-#trees {
-  background-image: url("../images/trees_lo.jpg");
-  color: black;
+#contact {
+  background-image: url("../images/computer_lo.jpg");
+}
+
+.blurb {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 25px;
+  border-radius: 5px;
 }
 
 .parallax {
@@ -49,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: white;
   position: relative;
   padding: 25vh 10%;
   min-height: 120vh;
