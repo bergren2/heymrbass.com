@@ -10,6 +10,24 @@ body {
   font-size: 24px;
 }
 
+#navigation {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  line-height: 30px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+  }
+}
+
 #hello {
   background-image: url("../images/background.jpg");
 }
@@ -18,12 +36,12 @@ body {
   background-image: url("../images/chicago.jpg");
 }
 
-#depaul {
-  background-image: url("../images/coffee_lo.jpg");
+#working-on {
+  background-image: url("../images/coffee.jpg");
 }
 
 #contact {
-  background-image: url("../images/computer_lo.jpg");
+  background-image: url("../images/computer.jpg");
 }
 
 .blurb {
@@ -53,6 +71,11 @@ body {
   width: 100vw;
   box-sizing: border-box;
   transform-style: inherit;
+
+  .blurb {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 // link colors
