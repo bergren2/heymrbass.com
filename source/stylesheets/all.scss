@@ -89,8 +89,7 @@ body {
   }
 }
 
-// other devices
-
+// media queries
 @media (orientation: portrait) {
   #turn-me {
     display: block;
@@ -101,7 +100,7 @@ body {
   }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 750px) {
   .slide {
     background-attachment: scroll;
   }
