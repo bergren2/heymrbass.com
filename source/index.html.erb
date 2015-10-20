@@ -2,36 +2,40 @@
 title: heymrbass.com
 ---
 
-<div id="navigation" class="blurb">
-  <ul>
-    <li><a href="#hello">Hello.</a></li>
-    <li><a href="#bio">Bio.</a></li>
-    <li><a href="#working-on">Projects.</a></li>
-    <li><a href="#contact">Contact.</a></li>
-</div>
+<div class="slice one">
+  <div class="content">
+    <%= image_tag "me.jpg", id: "me" %>
 
-<div class="parallax">
-  <div id="hello" class="slide">
-    <div>Hi, I'm Dan Bergren.<br />
-    I'm a software developer in Chicago.</div>
-  </div>
-  <div id="bio" class="slide">
-    <div class="blurb">I'm currently studying video game development at
-      <a href="http://www.cdm.depaul.edu/">DePaul University</a>.<br />
-      I also help run the blogging network <a href="http://www.20sb.net/">20SB</a>.</div>
-  </div>
-  <div id="working-on" class="slide">
-    <div class="blurb">
-      Some of the games I've built over the years are <a href="https://github.com/forkit/Chicago-Game-Jam-2013"><code>&lt;it's a metaphor for death&gt;</code></a>
-      and <a href="https://github.com/forkit/game-off-2012">Fork It!</a>.
-    </div>
-  </div>
-  <div id="contact" class="slide">
-    <div class="blurb">If you'd like to get a hold of me, shoot me
-      <a href="mailto:dan@heymrbass.com">an email</a> or find me on <a href="https://twitter.com/heymrbass">Twitter</a>.
-      Cheers!
-    </div>
+    <h2>
+      Hi, I'm<br />
+      Dan Bergren.
+    </h2>
+
+    <h3>
+      game dev | software dev
+    </h3>
   </div>
 </div>
 
-<div id="turn-me">Rotate me!</div>
+<div class="slice two">
+  <div class="content">
+    <%= image_tag "computer.jpg", id: "computer" %>
+    <p>
+      I'm a software developer at <%= link_to "Frontline Technologies", "http://www.frontlinek12.com/Home.html" %>
+      and a CS grad student at <%= link_to "DePaul University", "http://www.cdm.depaul.edu/Pages/default.aspx" %>.
+    </p>
+
+    <p>
+      I also enjoy working on <%= link_to "open-source projects", "https://apps.heymrbass.com" %>.
+    </p>
+  </div>
+</div>
+
+<div class="slice three">
+  <div class="content">
+    <p>
+      If you need to contact me, you can find me on <%= link_to "Twitter", "https://twitter.com/heymrbass" %><br />
+      or you can shoot me an <%= link_to "email", "dan@heymrbass.com" %>. Cheers!
+    </p>
+  </div>
+</div>
