@@ -28,10 +28,6 @@ Fire up
 
 and then check out the site at [localhost:4567](http://localhost:4567).
 
-Even though this is a simple project, I use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-to keep track of my changes. As such, please make any changes on and pull
-requests against `develop`.
-
 ## Deployment
 
 Travis takes care of continuous deployment.
