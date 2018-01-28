@@ -36,13 +36,6 @@ requests against `develop`.
 
 Travis takes care of continuous deployment.
 
-### Caveats
-
-If your directory is dirty, `git stash` before deploying.
-
-If Rake complains about there already being an `origin` remote, remove the `build`
-directory in its entirety.
-
 ## Configuration
 
 After launching the development server, navigate to
