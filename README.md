@@ -1,5 +1,7 @@
 # heymrbass.com
 
+[![Build Status](https://travis-ci.org/bergren2/heymrbass.com.svg?branch=master)](https://travis-ci.org/bergren2/heymrbass.com)
+
 It's a site. About me.
 
 ## Environment Prereqs
@@ -22,7 +24,7 @@ You should have the following minimally setup:
 
 Fire up
 
-    $ bin/middleman server
+    $ bundle exec middleman server
 
 and then check out the site at [localhost:4567](http://localhost:4567).
 
@@ -32,7 +34,7 @@ requests against `develop`.
 
 ## Deployment
 
-    $ bin/rake publish
+    $ bundle exec rake publish
 
 ### Caveats
 
