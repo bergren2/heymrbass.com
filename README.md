@@ -34,7 +34,7 @@ requests against `develop`.
 
 ## Deployment
 
-    $ bundle exec rake publish
+Travis takes care of continuous deployment.
 
 ### Caveats
 
