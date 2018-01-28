@@ -11,3 +11,6 @@ deploy:
     branch: master
 notifications:
   email: false
+branches:
+  only:
+  - master
