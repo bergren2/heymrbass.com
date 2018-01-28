@@ -1,5 +1,7 @@
 # heymrbass.com
 
+[![Build Status](https://travis-ci.org/bergren2/heymrbass.com.svg?branch=master)](https://travis-ci.org/bergren2/heymrbass.com)
+
 It's a site. About me.
 
 ## Environment Prereqs
