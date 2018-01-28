@@ -22,7 +22,7 @@ You should have the following minimally setup:
 
 Fire up
 
-    $ bin/middleman server
+    $ bundle exec middleman server
 
 and then check out the site at [localhost:4567](http://localhost:4567).
 
@@ -32,7 +32,7 @@ requests against `develop`.
 
 ## Deployment
 
-    $ bin/rake publish
+    $ bundle exec rake publish
 
 ### Caveats
 
